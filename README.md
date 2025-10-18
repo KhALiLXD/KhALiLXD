@@ -6,17 +6,17 @@
 ---
 
 ### 🧩 What I Do
-- 🖥 **Web Development** — Next.js, Express, MySQL, Redis  
-- 🎨 **Design & Branding** — UI/UX, Motion, Sound, Visual Identity  
-- ⚙️ **Creative Systems** — Automation, API Integrations, Discord Bots  
+- 🖥 **Web Development**: Next.js, Express, MySQL, Redis  
+- 🎨 **Design & Branding**: UI/UX, Motion, Sound, Visual Identity  
+- ⚙️ **Creative Systems**: Automation, API Integrations, Discord Bots  
 
-Currently building **[LOUSIN](https://lous,in)** —  
+Currently building **[LOUSIN](https://lous,in)**  
 a smart platform that connects creative tools, bots, and dashboards in one ecosystem.
 
 ---
 
 ### 🧠 Philosophy
-> Code isn’t just a program — it’s a way of thinking.  
+> Code isn’t just a program... it’s a way of thinking.  
 > Every line I write solves a real problem or creates something that lasts.
 
 ---
@@ -31,8 +31,8 @@ a smart platform that connects creative tools, bots, and dashboards in one ecosy
 ---
 
 ### 🧰 Tech Stack
-`Next.js` • `React` • `Express.js` • `MySQL` • `Redis`  
-`TailwindCSS` • `TypeScript` • `Python` • `Figma` • `Blender`
+`Next.js` • `React` • `Express.js` • `MySQL` • `Redis` • `PM2`
+`PHP` • `Python` • `Figma` • `Blender`
 
 ---
 
