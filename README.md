@@ -10,7 +10,7 @@
 - 🎨 **Design & Branding**: UI/UX, Motion, Sound, Visual Identity  
 - ⚙️ **Creative Systems**: Automation, API Integrations, Discord Bots  
 
-Currently building **[LOUSIN](https://lous,in)**  
+Currently building **[LOUSIN](https://lous.in)**  
 a smart platform that connects creative tools, bots, and dashboards in one ecosystem.
 
 ---
