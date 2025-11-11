@@ -26,6 +26,7 @@ a smart platform that connects creative tools, bots, and dashboards in one ecosy
 |----------|--------------|--------|
 | [Lousin Services](https://github.com/KhALiLXD/Lousin-Services) | Centralized control system for Discord bots & APIs | Next.js, Express, MySQL |
 | [Form Engine](https://github.com/KhALiLXD/form-engine) | Dynamic form builder for adaptive user inputs | React, Tailwind, Node.js |
+| [Flash sale backend](https://github.com/KhALiLXD/backend-of-thrones) | An Optimized Backend system that handle +100,000 Active users |
 | [Blockchain System](https://github.com/KhALiLXD/Blockchain-System) | P2P blockchain prototype with Solidity & Hardhat | Node.js, Web3, IPFS |
 
 ---
