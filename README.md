@@ -38,8 +38,8 @@ a smart platform that connects creative tools, bots, and dashboards in one ecosy
 ---
 
 ### 🤝 Let's Build Something
-📧 **team@lous.in**  
-🌍 [lous.in](https://lous.in)  
+📧 **contact@khalil-ay.com**  
+🌍 [My Portfolio](https://khalil-ay.com)  
 💬 [Discord](https://discord.gg/lousin) | [Instagram](https://www.instagram.com/khalil_elyacubi/)
 
 ---
