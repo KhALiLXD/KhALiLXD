@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="254" viewBox="0 0 1000 254" role="img" aria-labelledby="hero-title hero-description">
+  <title id="hero-title">Khalil Alyacoubi — Full-stack software engineer</title>
+  <desc id="hero-description">Backend systems, web interfaces and open-source tools. Based in Palestine, available for remote roles and freelance work.</desc>
+
+  <!-- EDIT THE THEME HERE. Text stays editable; there are no embedded images. -->
+  <style>
+    text { font-family: Poppins, Arial, sans-serif; }
+    .surface { fill: #242424; }
+    .ink { fill: #f2f0eb; }
+    .muted { fill: #b4b1ab; }
+    .paper { fill: #e7e5df; }
+    .dark { fill: #282724; }
+    .accent { fill: #baa7db; }
+    .small { font-size: 13px; }
+    .rule { stroke: #494845; stroke-width: 1; }
+  </style>
+
+  <!-- IDENTITY / x=0 y=0 / 728 × 254 -->
+  <g id="identity" transform="translate(0 0)">
+    <rect class="surface" width="728" height="254" rx="24"/>
+    <text id="github-handle" class="muted small" x="30" y="37">@KhALiLXD</text>
+    <text id="full-name" class="ink" x="27" y="112" font-size="53" font-weight="600" letter-spacing="-2">Khalil Alyacoubi</text>
+    <text id="role" class="ink" x="30" y="153" font-size="22">Full-stack software engineer.</text>
+    <line class="rule" x1="30" y1="183" x2="698" y2="183"/>
+    <text id="focus" class="muted" x="30" y="222" font-size="15">Backend systems</text>
+    <text class="muted" x="231" y="222" font-size="15">Web interfaces</text>
+    <text class="muted" x="416" y="222" font-size="15">Open-source tools</text>
+  </g>
+
+  <!-- SHORT BIO / x=744 y=0 / 256 × 254 -->
+  <g id="profile-context" transform="translate(744 0)">
+    <rect class="paper" width="256" height="254" rx="24"/>
+    <text class="dark small" x="25" y="37">BASED IN PALESTINE</text>
+    <text id="specialism" class="dark" x="25" y="85" font-size="22" font-weight="500">
+      <tspan x="25">Backend-leaning.</tspan>
+      <tspan x="25" dy="33">Product-minded.</tspan>
+    </text>
+    <line x1="25" y1="151" x2="231" y2="151" stroke="#bdbab2"/>
+    <text id="availability" class="dark" x="25" y="184" font-size="15">
+      <tspan x="25">Available for remote</tspan>
+      <tspan x="25" dy="24">roles &amp; freelance.</tspan>
+    </text>
+    <circle cx="226" cy="226" r="4" fill="#596f4e"/>
+  </g>
+</svg>

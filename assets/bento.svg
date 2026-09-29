@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="908" viewBox="0 0 1000 908" role="img" aria-labelledby="work-title work-description">
+  <title id="work-title">Selected engineering — Khalil Alyacoubi</title>
+  <desc id="work-description">Hermosa booking performance, Flashsale queue reliability, Agento runtime, Lousin SaaS, technology stack and teaching. Performance figures are from specific k6 tests.</desc>
+
+  <!-- EDIT THE THEME HERE. Each card uses local coordinates and a descriptive id. -->
+  <style>
+    text { font-family: Poppins, Arial, sans-serif; }
+    .surface { fill: #242424; }
+    .deep { fill: #1b1b1b; }
+    .paper { fill: #e7e5df; }
+    .ink { fill: #f2f0eb; }
+    .muted { fill: #b4b1ab; }
+    .dark { fill: #282724; }
+    .quiet { fill: #67665f; }
+    .accent { fill: #baa7db; }
+    .title { font-size: 30px; font-weight: 600; letter-spacing: -0.7px; }
+    .body { font-size: 17px; }
+    .small { font-size: 13px; }
+    .caption { font-size: 12px; }
+    .rule { stroke: #494845; stroke-width: 1; }
+    .paper-rule { stroke: #c2bfb7; stroke-width: 1; }
+    .code { font-family: Consolas, 'Liberation Mono', monospace; }
+  </style>
+
+  <!-- ROW 1 / A wide project with a measured chart, plus a narrow toolkit. -->
+  <g id="hermosa" transform="translate(0 0)">
+    <rect class="paper" width="640" height="354" rx="24"/>
+    <text class="quiet small" x="28" y="36">PRODUCTION / BOOKING ENGINE</text>
+    <text id="hermosa-name" class="dark title" x="27" y="84">Hermosa</text>
+    <text class="quiet body" x="28" y="118">Reservations that stay correct under load.</text>
+    <line class="paper-rule" x1="28" y1="143" x2="612" y2="143"/>
+
+    <!-- Quantitative chart: bar lengths use the same scale, 9:58. -->
+    <g id="booking-throughput" transform="translate(28 171)">
+      <text class="quiet small" x="0" y="0">Booking writes / second</text>
+      <text class="quiet small" x="0" y="43">Before</text>
+      <rect x="68" y="25" width="43.45" height="25" rx="3" fill="#afada5"/>
+      <text class="dark" x="123" y="44" font-size="18" font-weight="600">9</text>
+      <text class="dark small" x="0" y="88">After</text>
+      <rect x="68" y="70" width="280" height="25" rx="3" fill="#3c5854"/>
+      <text class="dark" x="360" y="89" font-size="18" font-weight="600">58</text>
+    </g>
+
+    <line class="paper-rule" x1="444" y1="171" x2="444" y2="273"/>
+    <g id="hermosa-schema" transform="translate(469 190)">
+      <text class="dark" font-size="23" font-weight="600" x="0" y="0">81<tspan class="quiet small" dx="10">endpoints</tspan></text>
+      <text class="dark" font-size="23" font-weight="600" x="0" y="39">17<tspan class="quiet small" dx="10">tables</tspan></text>
+      <text class="dark" font-size="23" font-weight="600" x="0" y="78">4<tspan class="quiet small" dx="10">user roles</tspan></text>
+    </g>
+    <text class="quiet caption" x="28" y="324">1,000-VU k6 test · No double-bookings or timeouts observed.</text>
+  </g>
+
+  <g id="toolkit" transform="translate(656 0)">
+    <rect class="surface" width="344" height="354" rx="24"/>
+    <text class="muted small" x="26" y="36">TOOLS I WORK WITH</text>
+    <text class="ink" x="26" y="85" font-size="24" font-weight="500">Across the stack.</text>
+    <text class="muted caption" x="26" y="125">BACKEND</text>
+    <text class="ink" x="26" y="150" font-size="15">TypeScript · Node.js · Python</text>
+    <text class="ink" x="26" y="176" font-size="15">PHP · Laravel</text>
+    <line class="rule" x1="26" y1="192" x2="318" y2="192"/>
+    <text class="muted caption" x="26" y="218">DATA &amp; INFRASTRUCTURE</text>
+    <text class="ink" x="26" y="243" font-size="15">PostgreSQL · Redis · BullMQ</text>
+    <text class="ink" x="26" y="269" font-size="15">Docker · Nginx · k6</text>
+    <line class="rule" x1="26" y1="285" x2="318" y2="285"/>
+    <text class="muted caption" x="26" y="311">FRONTEND</text>
+    <text class="ink" x="26" y="336" font-size="15">React · Next.js · Tailwind CSS</text>
+  </g>
+
+  <!-- ROW 2 / Reliability result and a library with an approval model. -->
+  <g id="flashsale" transform="translate(0 370)">
+    <rect class="surface" width="390" height="314" rx="24"/>
+    <text class="muted small" x="27" y="36">BACKEND / LOAD TESTING</text>
+    <text class="ink title" x="26" y="81">Flashsale</text>
+    <text class="muted" x="27" y="113" font-size="16">Synchronous → queue-based orders</text>
+    <text id="server-errors" class="ink" x="23" y="214" font-size="91" font-weight="600" letter-spacing="-4">0</text>
+    <text class="ink" x="101" y="172" font-size="20" font-weight="500">server errors</text>
+    <text class="muted" x="101" y="202" font-size="15">Down from 62 · 300 VUs</text>
+    <line class="rule" x1="27" y1="237" x2="363" y2="237"/>
+    <text class="muted small" x="27" y="267">The cost: slower fulfillment</text>
+    <text class="muted small" x="27" y="289">and lower throughput. See test notes.</text>
+  </g>
+
+  <g id="agento" transform="translate(406 370)">
+    <rect class="surface" width="594" height="314" rx="24"/>
+    <text class="muted small" x="28" y="36">OPEN SOURCE / TYPESCRIPT RUNTIME</text>
+    <text class="ink title" x="27" y="81">Agento</text>
+    <text class="muted body" x="28" y="113">Conversational access to REST APIs.</text>
+
+    <!-- Runtime layers. Edit each text element independently. -->
+    <g id="runtime-layers" transform="translate(28 132)">
+      <rect class="deep" width="538" height="135" rx="12"/>
+      <text class="muted code caption" x="18" y="29">LAYERS</text>
+      <line x1="96" y1="18" x2="96" y2="117" stroke="#494845"/>
+      <g class="code" font-size="15">
+        <text class="accent" x="115" y="29">01</text>
+        <text id="layer-configuration" class="ink" x="151" y="29">Configuration &amp; compilation</text>
+        <text class="accent" x="115" y="51">02</text>
+        <text id="layer-retrieval" class="ink" x="151" y="51">Retrieval &amp; routing</text>
+        <text class="accent" x="115" y="73">03</text>
+        <text id="layer-orchestration" class="ink" x="151" y="73">Orchestration</text>
+        <text class="accent" x="115" y="95">04</text>
+        <text id="layer-execution" class="ink" x="151" y="95">Request mapping &amp; execution</text>
+        <text class="accent" x="115" y="117">05</text>
+        <text id="layer-presentation" class="ink" x="151" y="117">Conversation &amp; presentation</text>
+      </g>
+    </g>
+    <text class="ink" x="28" y="293" font-size="15">5 model providers</text>
+    <text class="muted small" x="211" y="293">Safe retries · Limits · Circuit breaker</text>
+  </g>
+
+  <!-- ROW 3 / SaaS, teaching and an invitation. -->
+  <g id="lousin" transform="translate(0 700)">
+    <rect class="surface" width="390" height="208" rx="24"/>
+    <text class="ink" x="27" y="43" font-size="24" font-weight="500">Lousin</text>
+    <text class="muted small" x="27" y="73">Multi-tenant Discord-bot SaaS</text>
+    <text class="ink" x="26" y="133" font-size="39" font-weight="500" letter-spacing="-1">10+ → 1</text>
+    <text class="muted small" x="27" y="166">Dashboards &amp; CLIs, one abstraction.</text>
+    <text class="muted caption" x="27" y="188">Co-founded and engineered.</text>
+  </g>
+
+  <g id="teaching" transform="translate(406 700)">
+    <rect class="paper" width="234" height="208" rx="24"/>
+    <text class="quiet small" x="24" y="37">TEACHING</text>
+    <text class="dark" x="21" y="106" font-size="49" font-weight="600" letter-spacing="-2">400+</text>
+    <text class="dark" x="24" y="136" font-size="17" font-weight="500">students taught</text>
+    <text class="quiet small" x="24" y="169">Advanced Python</text>
+    <text class="quiet small" x="24" y="190">at IUG.</text>
+  </g>
+
+  <g id="contact" transform="translate(656 700)">
+    <rect width="344" height="208" rx="24" fill="#c4b4dc"/>
+    <text class="dark small" x="26" y="37">HAVE SOMETHING IN MIND?</text>
+    <text class="dark" x="25" y="97" font-size="31" font-weight="500" letter-spacing="-1">Work together.</text>
+    <line x1="26" y1="124" x2="318" y2="124" stroke="#a594bf"/>
+    <text id="contact-email" class="dark" x="26" y="164" font-size="16">contact@khalil-ay.com</text>
+    <text id="portfolio-domain" class="dark caption" x="26" y="188">khalil-ay.com</text>
+  </g>
+</svg>

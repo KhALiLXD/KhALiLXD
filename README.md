@@ -1,47 +1,37 @@
-# Hey, I'm Khalil Alyacoubi 👋
+<!-- Artwork is editable SVG. See assets/EDITING.md for a short editing guide. -->
+<p align="center">
+  <a href="https://khalil-ay.com">Portfolio</a> &nbsp; · &nbsp;
+  <a href="https://khalil-ay.com/works">My works</a> &nbsp; · &nbsp;
+  <a href="https://linkedin.com/in/khalil-ay">LinkedIn</a> &nbsp; · &nbsp;
+  <a href="mailto:contact@khalil-ay.com">Contact</a>
+</p>
 
-> Multidisciplinary Creative, UI/UX Designer, and Full-Stack Builder.  
-> I create systems that *think*, visuals that *speak*, and experiences that *stay.*
+<a href="https://khalil-ay.com">
+  <img src="./assets/hero.svg" width="100%" alt="Khalil Alyacoubi, full-stack software engineer. Backend systems, web interfaces, and open-source tools. Based in Palestine, available for remote roles and freelance work.">
+</a>
 
----
+<a href="https://khalil-ay.com/works">
+  <img src="./assets/bento.svg" width="100%" alt="Hermosa: booking writes increased from 9 to 58 per second in a 1,000-VU k6 test. Flashsale: 62 to zero server errors at 300 VUs, with slower fulfillment and lower throughput. Agento API runtime, Lousin SaaS, full-stack toolkit, and 400+ Python students taught.">
+</a>
 
-### 🧩 What I Do
-- 🖥 **Web Development**: Next.js, Express, MySQL, Redis  
-- 🎨 **Design & Branding**: UI/UX, Motion, Sound, Visual Identity  
-- ⚙️ **Creative Systems**: Automation, API Integrations, Discord Bots  
+<p align="center">
+  <a href="https://hermosaksa.net">Hermosa</a> &nbsp; · &nbsp;
+  <a href="https://github.com/KhALiLXD/Backend-Of-thrones">Flashsale source</a> &nbsp; · &nbsp;
+  <a href="https://khalil-ay.com/works/18">Agento</a> &nbsp; · &nbsp;
+  <a href="https://khalil-ay.com/works">All projects</a>
+</p>
 
-Currently building **[LOUSIN](https://lous.in)**  
-a smart platform that connects creative tools, bots, and dashboards in one ecosystem.
+<details>
+<summary><strong>Projects &amp; test notes</strong></summary>
 
----
+- **Hermosa:** A production salon booking platform with 81 REST endpoints, 17 tables, and four user roles. Booking writes increased from 9 to 58 per second in a 1,000-VU k6 test; no double-bookings or timeouts were observed in that test.
+- **Flash-sale system:** A comparison of synchronous and queue-based order paths. At the same 300-VU peak load, server errors fell from 62 to zero. The queue-based run recorded zero failed requests out of 108,844 and no stranded stock. The tradeoff: p95 fulfillment increased from 5.0 s to 8.1 s, while throughput decreased from 72.9 to 32.5 requests/s.
+- **Agento:** An open-source runtime on npm that brings conversational access to REST APIs. Includes approvals bound to the exact write call, replay prevention, timeouts, size limits, circuit breakers, and safe retries across five model providers.
+- **Lousin:** A co-founded, multi-tenant Discord-bot SaaS that consolidated more than ten dashboards and CLIs into one abstraction layer.
+- **Teaching:** Advanced Python instruction for 400+ students at the Islamic University of Gaza.
 
-### 🧠 Philosophy
-> Code isn’t just a program... it’s a way of thinking.  
-> Every line I write solves a real problem or creates something that lasts.
+Flash-sale figures come from a closed-model k6 run against a **mock payment gateway**. These are results from specific tests, not production guarantees. Methodology, known defects, and threats to validity are documented in the flash-sale repository’s `ANALYSIS_REPORT.md`.
 
----
+</details>
 
-### 📂 Featured Projects
-| Project | Description | Stack |
-|----------|--------------|--------|
-| [Lousin Services](https://github.com/KhALiLXD/Lousin-Services) | Centralized control system for Discord bots & APIs | Next.js, Express, MySQL |
-| [Form Engine](https://github.com/KhALiLXD/form-engine) | Dynamic form builder for adaptive user inputs | React, Tailwind, Node.js |
-| [Flash sale backend](https://github.com/KhALiLXD/backend-of-thrones) | An Optimized Backend system that handle +100,000 Active users |
-| [Blockchain System](https://github.com/KhALiLXD/Blockchain-System) | P2P blockchain prototype with Solidity & Hardhat | Node.js, Web3, IPFS |
 
----
-
-### 🧰 Tech Stack
-`Next.js` • `React` • `Express.js` • `MySQL` • `Redis` • `PM2`
-`PHP` • `Python` • `Figma` • `Blender`
-
----
-
-### 🤝 Let's Build Something
-📧 **contact@khalil-ay.com**  
-🌍 [My Portfolio](https://khalil-ay.com)  
-💬 [Discord](https://discord.gg/lousin) | [Instagram](https://www.instagram.com/khalil_elyacubi/)
-
----
-
-> “No presets. Just your preferences.” — *Lousin*
